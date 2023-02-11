@@ -16,9 +16,9 @@ switch:
 
 Configuration variables:
 
-  - **pin** is the GPIO pin number that the switch is connected to.  
-  - **on_state** is either true or false, depending on whether the switch turns on with a high signal or low signal.  
-  - *inherits other configuration variables from <a href="https://esphome.io/components/switch/index.html">switch</a>.
+  - **pin:** is the GPIO pin number that the switch is connected to.  
+  - **on_state:** is either true or false, depending on whether the switch turns on with a high signal or low signal.  
+  - *inherits other configuration variables from <a href="https://esphome.io/components/switch/index.html"><b>switch</b></a>.
 
 ## Example
 
