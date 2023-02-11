@@ -5,8 +5,6 @@ The The Tri-State switch can be controlled like any other entity in Home Assista
 
 
 ## Base Tri-Switch Configuration
-To add the Tri-State Switch component to your ESPHome setup, add the following to your esphome.yaml file:
-
 ```
 switch:
   - platform: tri_state
