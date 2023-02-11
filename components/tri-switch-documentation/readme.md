@@ -4,7 +4,7 @@ This component is useful in scenarios where you want to retain the ability to co
 The The Tri-State switch works as an entity in Home Assistant that can be controlled either by a manual button connected to a GPIO pin or by a dashboard toggle switch.
 
 
-## Configuration
+## Base Tri-Switch Configuration
 To add the Tri-State Switch component to your ESPHome setup, add the following to your esphome.yaml file:
 
 ```
@@ -16,11 +16,12 @@ switch:
     on_state: <ON_STATE>
 ```
 
-Where:
+Configuration variables:
 
 <GPIO_PIN_NUMBER> is the GPIO pin number that the switch is connected to.
 <ON_STATE> is either true or false, depending on whether the switch turns on with a high signal or low signal.
-Example
+
+## Example
 
 Here's an example configuration for a Tri-State Switch connected to GPIO pin 5 and turning on with a high signal:
 
