@@ -3,7 +3,6 @@ This component is useful in scenarios where you want to retain the ability to co
 
 The The Tri-State switch can be controlled like any other entity in Home Assistant that can be controlled either by a manual button connected to a GPIO pin, a dashboard toggle switch, automation or script.
 
-
 ## Base Tri-Switch Configuration
 ```
 switch:
@@ -20,8 +19,10 @@ Configuration variables:
   - **on_state:** is either true or false, depending on whether the switch turns on with a high signal or low signal.  
   - *inherits other configuration variables from <a href="https://esphome.io/components/switch/index.html"><b>switch</b></a>.
 
-## Example
+## Example Use Case
 
+<real world use case of how this can be used>
+  
 Here's an example configuration for a Tri-State Switch connected to GPIO pin 5 and turning on with a high signal:
 
 ```
