@@ -21,7 +21,7 @@ Configuration variables:
 
 ## Example Use Case
 
-_practical real world example use case goes here_
+_few examples of practical real world example use cases go here_
   
 Here's an example configuration for a Tri-State Switch connected to GPIO pin 5 and turning on with a high signal:
 
