@@ -1,8 +1,10 @@
 # Tri-State Switch Component for ESPHome
-The The Tri-State switch works as an entity in Home Assistant that can be controlled either by a manual button connected to a GPIO pin or by a dashboard toggle switch.  This component is useful in scenarios where you want to retain the ability to control a device with a physical button while also having the ability to control it programatically with Automations without interfering with the physical use of the button.
+This component is useful in scenarios where you want to retain the ability to control a device with a physical button while also having the ability to control it programatically.  This component accomplishes this without interfering with the physical use of the button.
+
+The The Tri-State switch works as an entity in Home Assistant that can be controlled either by a manual button connected to a GPIO pin or by a dashboard toggle switch.
 
 
-Configuration
+## Configuration
 To add the Tri-State Switch component to your ESPHome setup, add the following to your esphome.yaml file:
 
 ```
